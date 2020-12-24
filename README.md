@@ -36,3 +36,5 @@ An advanced Music Bot based on distube.js.org
 
 ## License
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fnavaneethkm004%2Fdistube-music-bot.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fnavaneethkm004%2Fdistube-music-bot?ref=badge_large)
+
+Checkout @Tomato6966, he's a great dev and he is the main dev of this bot!!
