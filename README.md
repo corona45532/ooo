@@ -1,4 +1,4 @@
-# Distube Music Bot
+[![distube-music-bot](https://github-readme-stats.vercel.app/api/pin/?username=navaneethkm004&repo=distube-music-bot&theme=dark)](https://github.com/navaneethkm004/distube-music-bot)<br/>
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fnavaneethkm004%2Fdistube-music-bot.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fnavaneethkm004%2Fdistube-music-bot?ref=badge_shield)
 
 
