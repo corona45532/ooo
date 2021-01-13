@@ -16,7 +16,9 @@ An advanced Music Bot based on distube.js.org
  
  **4.** Install all of the packages with **`npm install`**     |  the packages are   **`npm install node.js @discordjs/opus discord.js distube quick.db`**
  
- **5.** start the bot with **`node index.js`**
+ **5.** start the bot with **`node index.js`**<br/>
+ 
+ [![Run on Repl.it](https://repl.it/badge/github/navaneethkm004/tiny-core-linux)](https://repl.it/github/navaneethkm004/tiny-core-linux)<br/>
 
 ## **NOTE:**
 
