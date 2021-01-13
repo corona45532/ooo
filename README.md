@@ -18,7 +18,7 @@ An advanced Music Bot based on distube.js.org
  
  **5.** start the bot with **`node index.js`**<br/>
  
- [![Run on Repl.it](https://repl.it/badge/github/navaneethkm004/tiny-core-linux)](https://repl.it/github/navaneethkm004/tiny-core-linux)<br/>
+ [![Run on Repl.it](https://repl.it/badge/github/navaneethkm004/distube-music-bot)](https://repl.it/github/navaneethkm004/distube-music-bot)<br/>
 
 ## **NOTE:**
 
