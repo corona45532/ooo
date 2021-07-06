@@ -144,17 +144,17 @@ try{
 <a:emoji_22:856440337232953384> |MUSIC COMMAND 
 %play %stop %skip %radio %sp %volume 
 
- |FILTER COMMANDS:
+<a:emoji_28:861854828828688395> |FILTER COMMANDS:
 %gate | %haas | %pulsator | %surrounding |
  %clear | %8d | %bassboost | %echo 
 | %karaoke | %nightcore | %vaporwave | %flanger
 | %subboost | %phaser | %tremolo | %vibrato 
 | %reverse | %treble | %clear
 
-|INFO COMMANDS 
+<a:emoji_11:849329485958217819> |INFO COMMANDS 
 %invite %uptime %ping
 %status %prefix 
-
+<:add:855359850229530655> |Link
 [invite bot](https://discord.com/api/oauth2/authorize?client_id=855193316894179368&permissions=8&scope=bot) -- [SERVAR](https://discord.gg/ChV57UQqVh)
         `)
         message.channel.send(helpembed)
