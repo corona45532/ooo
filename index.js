@@ -8,8 +8,8 @@ const DisTube = require("distube");
 const radio = require("./radio");
 const { keep_alive } = require("./keep_alive");
 const config = {
-    PREFIX: "",
-    token: "",
+    PREFIX: "%",
+    token: "ODU1MTkzMzE2ODk0MTc5MzY4.YMu61w.fOq-QqHy0elyqpSBI8BsDI-Ywj8",
     geniusapi: ''
 }
 const client = new Discord.Client({ disableMentions: "all" });
