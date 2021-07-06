@@ -128,55 +128,34 @@ client.on("message", async message => {
 try{
 
     if (command === "invite" || command === "add"){
-        return embedbuilder(client, message, "#fffff0", "Invite me!", "[`Click here`](https://discord.com/api/oauth2/authorize?client_id=767885987740254291&permissions=49572160&scope=bot)   |   [`Website`](https://harmonymusic.tk)   |   :heart: Thanks for inviting!")
+        return embedbuilder(client, message, "#fffff0", "Invite me!", "[`Click here`](https://discord.com/api/oauth2/authorize?client_id=855193316894179368&permissions=8&scope=bot)   |      |   :home: Thanks for inviting!")
          }
     if (command === "radio") {
         return radio(client, message, args); //get the radio module
     }
     if (command === "help"  || command === "about" || command === "h" || command === "info") {
         let helpembed = new Discord.MessageEmbed()
-        .setColor("#fffff0")
+        .setColor("#E4B400")
         .setTitle("***__COMMANDS__***")
         .setURL("https://harmonymusic.tk")
         .setAuthor(message.author.tag, message.member.user.displayAvatarURL({dynamic:true}),"https://harmonymusic.tk")
         .setFooter(client.user.username + " | Syntax:  <>...must    []...optional", client.user.displayAvatarURL())
         .setDescription(`
-        **Prefix:** \`${prefix}\`   *change with:* \`${prefix}prefix <NEW PREFIX>\`
+<a:emoji_22:856440337232953384> |MUSIC COMMAND 
+%play %stop %skip %radio %sp %volume 
 
-        \`${prefix}help\`  \`${prefix}h\`  ➖➖ *List of all Commands*
-        \`${prefix}play <URL/NAME>\`  \`${prefix}p\`  ➖➖ *Plays a song*
-        \`${prefix}radio [radiostation]\`  ➖➖ *Plays a radiostation*
-        \`${prefix}status\`  ➖➖ *Shows queue status*
-        \`${prefix}nowplaying\`  \`${prefix}np\`  ➖➖ *Shows current song*
-        \`${prefix}pause\`  ➖➖ *Pauses the song*
-        \`${prefix}resume\`  \`${prefix}r\`  ➖➖ *Resume the song*
-        \`${prefix}shuffle\`  \`${prefix}mix\`  ➖➖ *Shuffles the queue*
-        \`${prefix}playskip\`  \`${prefix}ps\`  ➖➖ *Plays new song and skips current*
-        \`${prefix}autoplay\`  \`${prefix}ap\`  ➖➖ *Enables autoplay - random similar songs
-        \`${prefix}skip\`  \`${prefix}s\`  ➖➖ *Skips current song*
-        \`${prefix}stop\`  \`${prefix}leave\`  ➖➖ *Stops playing and leaves the channel*
-        \`${prefix}seek <DURATION>\`  ➖➖ *Moves in the Song in: seconds*
-        \`${prefix}volume <VOLUME\`  \`${prefix}vol\`  ➖➖ *Changes volume*
-        \`${prefix}queue\`  \`${prefix}qu\`  ➖➖ *Shows current Queue*
-        \`${prefix}loop <0/1/2>\`  \`${prefix}mix\`  ➖➖ *Enables loop for off / song / queue*
-        \`${prefix}lyircs\`  \`${prefix}ly\`  ➖➖ *Shows lyrics for this song*
-        \`${prefix}jump <Queue num.>\`  ➖➖ *Jumps to a queue song*
-        \`${prefix}prefix <PREFIX>\`  ➖➖ *Changes the prefix*
-        \`${prefix}ping\`  ➖➖ *Gives you the ping*
-        \`${prefix}uptime\`  ➖➖ *Shows you the Bot's Uptime*
-        \`${prefix}invite\`  ➖➖ *Invite the Bot to your Server :heart:*
-        `)
-        .addField("***FILTER COMMANDS:***",`
-        \`${prefix}gate\` | \`${prefix}haas\` | \`${prefix}pulsator\` | \`${prefix}surrounding\` | \`${prefix}clear\` | \`${prefix}8d\` | \`${prefix}bassboost\` | \`${prefix}echo\` | \`${prefix}karaoke\` | \`${prefix}nightcore\` | \`${prefix}vaporwave\` | \`${prefix}flanger\` | \`${prefix}subboost\` | \`${prefix}phaser\` | \`${prefix}tremolo\` | \`${prefix}vibrato\` | \`${prefix}reverse\` | \`${prefix}treble\` | \`${prefix}clear\`   
-        `)
-        .addField("***SUPPORTED SOURCES:***",`
-        \`Youtube\`, \`Soundcloud\`, [\`More\`](https://harmonymusic.tk/docs/docs.html), ...
-        `)
-        .addField("***BOT BY:***",`
-        <@690104547083157563> \`Dexter Whiz </>#9723\`[\`Website\`](https://navaneethkm.gq)
-        `)
-        .addField("***SUPPORT:***",`
-        [\`Server\`](https://discord.gg/e3CWZbUg3E) | [\`Harmony - Website\`](https://harmonymusic.tk) | [\`Invite\`](https://discord.com/api/oauth2/authorize?client_id=767885987740254291&permissions=49572160&scope=bot) | [\`Vote\`](https://top.gg/bot/767885987740254291)
+ |FILTER COMMANDS:
+%gate | %haas | %pulsator | %surrounding |
+ %clear | %8d | %bassboost | %echo 
+| %karaoke | %nightcore | %vaporwave | %flanger
+| %subboost | %phaser | %tremolo | %vibrato 
+| %reverse | %treble | %clear
+
+|INFO COMMANDS 
+%invite %uptime %ping
+%status %prefix 
+
+[invite bot](https://discord.com/api/oauth2/authorize?client_id=855193316894179368&permissions=8&scope=bot) -- [SERVAR](https://discord.gg/ChV57UQqVh)
         `)
         message.channel.send(helpembed)
         return;
