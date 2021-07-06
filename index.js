@@ -87,7 +87,7 @@ client.on("ready", () => {
     
     setInterval(() => {
         stateswitch = !stateswitch; //change state
-        if (stateswitch)  client.user.setActivity(`to ${client.guilds.cache.size} Servers`, { type: "STREAMING",url:"https://www.twitch.tv/nocopyrightsounds"});
+        if (stateswitch)  client.user.setActivity(`Type: %help ${client.guilds.cache.size} Servers`, { type: "STREAMING",url:"https://www.twitch.tv/nocopyrightsounds"});
                     else  client.user.setActivity(`${client.guilds.cache.reduce((c, g) => c + g.memberCount, 0)} Users`, { type: "LISTENING" });
     }, 5000); //5 second delay
 })
